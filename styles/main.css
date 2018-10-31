@@ -1,0 +1,15 @@
+html {
+  overflow-x: hidden;
+  height: 100%; /* makes sure our HTML takes up 100% of the browser window */
+    font-size: 100%;
+}
+body {
+    color:#ED7C31;
+    min-height: 100%;
+    font-family: "Montserrat", sans-serif;    
+ }
+
+section.bluefill{
+  background: #000f1d;
+  width: 100vw;
+}
