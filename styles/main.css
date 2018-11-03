@@ -18,7 +18,7 @@ header {
   background-image: url(../svg/hero_bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 100vw;
+  height: 75vw;
   width:100vw;
   color: #000f1d;
 }
@@ -30,7 +30,7 @@ div.hero {
 }
 
 div.hero-content{
-  padding: 12rem 6rem;
+  padding: 12rem 1rem 12rem 5rem;
 }
 
 header a.site-logo img{
@@ -72,17 +72,23 @@ header a.btn{
   color: #fff;
  }
 
+ div.hero-image{
+  width: 58rem;
+  height: 34rem;
+  padding: 6rem 0 6rem 0;
+ }
+
  img.mobilemockup {
   height: 460px;
   width: 230px;
   box-shadow: 8px 8px 10px rgba(0, 15, 29, 0.6);
-  z-index: -1;
-  /*transform: :6rem;*/
+  transform: translateY(-93%);
  }
 
  img.webmockup{
   height: 505px;
   width: 807px;
   box-shadow: 8px 8px 20px rgba(0, 15, 29, 0.6);
+  transform: translateX(6rem);
  }
 
