@@ -1,12 +1,11 @@
 html {
   overflow-x: hidden;
   height: 100%; /* makes sure our HTML takes up 100% of the browser window */
-    font-size: 100%;
 }
+
 body {
-    color:#fff;
-    min-height: 100%;
-    font-family: "Montserrat", sans-serif;    
+  color:#fff;
+  font-family: "Montserrat", sans-serif;  
  }
 
 section.bluefill{
@@ -18,15 +17,15 @@ header {
   background-image: url(../svg/hero_bg.svg);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 75vw;
+  height: 60vw;
   width:100vw;
   color: #000f1d;
 }
 
 div.hero {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: row;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 div.hero-content{
@@ -45,8 +44,8 @@ header h1{
 }
 
 header sup{
-vertical-align: super;
-font-size: 1rem;
+  vertical-align: super;
+  font-size: 1rem;
 }
 
 header p{
@@ -92,3 +91,92 @@ header a.btn{
   transform: translateX(6rem);
  }
 
+div.benefits-wrapper{
+  padding: 6rem 5rem;
+}
+
+.benefits-wrapper h1 {
+  margin-bottom: 4rem;
+  margin-top: 0;
+  font-size: 5rem;
+  color: #ED7C31;
+  font-weight: 700;
+}
+
+h1.tent {
+  text-align: right;
+  padding-right: 2rem;
+}
+
+.benefits-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.benefits-content p {
+  max-width: 44rem;
+  padding: 1rem;
+  line-height: 150%;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+strong.styleguide{
+  padding: 1rem;
+}
+
+.benefits-image img#tent{
+  max-width: 28.5rem;
+  max-height: 30rem;
+}
+
+.benefits-image img#uiflow{
+  max-width: 78.5rem;
+  max-height: 40rem;
+}
+
+.benefits-image img#styleguide{
+  max-width: 29rem;
+  max-height: 18.5rem;
+}
+
+img#searchbar{
+  width: 100vw;
+}
+
+img#screenshot{
+  width: 100vw;
+  height: 100vw;
+}
+
+.benefits-wrapper a.styleguide{
+  margin-top: 3rem;
+  margin-left: 1rem;
+  padding:10px 35px;
+  border-radius: 4px;
+  background: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  color:#000f1d;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+ }
+ 
+.benefits-wrapper a.styleguide:hover{
+  background:-webkit-linear-gradient(90deg, #573734 0%, #D6562B 36.26%, #ED7C31 65.18%, #F4BB3A 100%);
+  color: #fff;
+ }
+
+ div.rectbox{
+  background: #fff;
+  width: 100vw;
+  height: 52rem;
+  margin: 6rem auto;
+ }
+
+ .rectbox img{
+  max-width: 69.75rem;
+  max-height: 28rem;
+  padding: 12rem 10rem;
+ }
