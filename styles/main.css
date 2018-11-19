@@ -32,6 +32,7 @@ div.hero {
   grid-template-columns: repeat(16, 1fr);
   grid-gap: 20px;
   grid-template-rows: repeat(16, 2rem);
+  overflow-x: hidden;
 }
 
 div.hero-content{
