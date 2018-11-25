@@ -104,7 +104,7 @@ div.benefits-wrapper{
   margin: 0;
 }
 
-.benefits-wrapper h1 {
+.benefits-wrapper h2 {
   margin-bottom: 3rem;
   margin-top: 0;
   font-size: 5.5vw;
@@ -112,7 +112,7 @@ div.benefits-wrapper{
   font-weight: 700;
 }
 
-h1.tent {
+h2.tent {
   text-align: right;
 }
 
@@ -268,7 +268,7 @@ footer nav ul li a strong{
   padding-bottom: 4rem;
  }
 
- .socialmedia li {
+ li.socialmedia a{
   font-size: 1.25rem;
   list-style-type: none;
   display: inline-block;
@@ -324,12 +324,12 @@ div.benefits-wrapper{
   padding: 3rem;
 }
 
-.benefits-wrapper h1 {
+.benefits-wrapper h2 {
   margin-bottom: 2rem;
   font-size: 8vw;
 }
 
-h1.tent {
+h2.tent {
   text-align: left;
 }
 
@@ -407,12 +407,12 @@ div.benefits-wrapper{
   padding: 3rem;
 }
 
-.benefits-wrapper h1 {
+.benefits-wrapper h2 {
   margin-bottom: 2rem;
   font-size: 8vw;
 }
 
-h1.tent {
+h2.tent {
   text-align: left;
 }
 
@@ -463,12 +463,12 @@ img.mobilemockup {
   background-size: auto;
   }
 
-.benefits-wrapper h1 {
+.benefits-wrapper h2 {
   margin-bottom: 2rem;
   font-size: 8vw;
 }
 
-h1.tent {
+h2.tent {
   text-align: left;
 }
 
@@ -520,12 +520,12 @@ img.mobilemockup {
   background-size: auto;
   }
 
-.benefits-wrapper h1 {
+.benefits-wrapper h2 {
   margin-bottom: 2rem;
   font-size: 8vw;
 }
 
-h1.tent {
+h2.tent {
   text-align: left;
 }
 
